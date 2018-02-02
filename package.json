@@ -4,11 +4,13 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --prod",
+    "start-ng": "ng serve",
+    "start": "node src/server/index.js",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "sme": "./node_modules/.bin/source-map-explorer"
   },
   "private": true,
   "dependencies": {
